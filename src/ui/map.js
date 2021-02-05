@@ -376,6 +376,7 @@ class Map extends Camera {
     touchPitch: TouchPitchHandler;
 
     constructor(options: MapOptions) {
+        console.log('============== modified by yzt ==============');
         PerformanceUtils.mark(PerformanceMarkers.create);
 
         options = extend({}, defaultOptions, options);
